@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Academic Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Student Academic Tracker</h1>
+
+    <form id="studentForm">
+      <input type="text" id="studentName" placeholder="Student Name" required />
+      <input type="number" id="math" placeholder="Math Marks" required />
+      <input type="number" id="science" placeholder="Science Marks" required />
+      <input type="number" id="english" placeholder="English Marks" required />
+      <button type="submit">Add Student</button>
+    </form>
+
+    <h2>Student List</h2>
+    <table id="studentTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Math</th>
+          <th>Science</th>
+          <th>English</th>
+          <th>Average</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
